@@ -1,5 +1,5 @@
 import { useContext, useEffect } from "react";
-import styles from "./search.module.css";
+import styles from "./Search.module.css";
 import { MovieContext } from "../../../../provider/MovieProvider";
 
 export default function Search() {
