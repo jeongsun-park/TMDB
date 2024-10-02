@@ -1,0 +1,31 @@
+.trending {
+  margin-top: 40px;
+
+  padding: 25px 0;
+}
+.trending .trending_conteiner {
+  width: 95%;
+  margin: 0 auto;
+}
+.trending .trending_conteiner .trending_header {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+.trending .trending_conteiner .trending_header p {
+  font-size: 1.5em;
+  margin-right: 20px;
+  color: white;
+}
+.trending .trending_conteiner .trending_header div button {
+  font-size: 0.8em;
+  width: 45px;
+  height: 25px;
+  color: #555555;
+  background-color: #181818;
+  border: 1px solid #555555;
+}
+.trending .trending_conteiner .trending_header div button:first-of-type {
+  background-color: #555555;
+  color: white;
+}

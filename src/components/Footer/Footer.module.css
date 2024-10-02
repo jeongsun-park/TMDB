@@ -1,0 +1,27 @@
+footer {
+  /* height: 200px; */
+  border-top: 1px solid rgb(56, 56, 56);
+  margin-top: 100px;
+}
+
+footer .footer_conteiner {
+  max-width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+}
+footer .footer_conteiner .footer_text {
+  padding: 40px 50px;
+  color: white;
+}
+footer .footer_conteiner .footer_text h4 {
+  text-align: center;
+  margin-bottom: 40px;
+  color: gray;
+}
+footer .footer_conteiner .footer_text ul li {
+  margin-bottom: 8px;
+}
+footer .footer_conteiner .footer_text p {
+  margin-top: 30px;
+  font-size: 0.8em;
+}

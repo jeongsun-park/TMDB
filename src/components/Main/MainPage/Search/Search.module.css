@@ -1,0 +1,47 @@
+.back_img {
+  background-size: cover;
+  background-position: center; /* 이미지를 중앙에 배치 */
+  height: 300px; /* 컨테이너의 높이에 맞게 설정 */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* 수직 중앙 정렬 */
+}
+.back_img .search_conteiner {
+  width: 80%;
+}
+.back_img .search_conteiner .greeting {
+  color: white;
+}
+.back_img .search_conteiner .greeting h2 {
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+.back_img .search_conteiner .greeting p {
+  margin-bottom: 70px;
+}
+.back_img .search_conteiner .conteiner .search {
+  border-radius: 30px;
+  background-color: rgb(58, 58, 58);
+}
+.back_img .search_conteiner .conteiner .search input {
+  width: 80%;
+  padding: 15px 30px;
+  border: 0;
+  border-radius: 30px;
+  background-color: rgb(58, 58, 58);
+  color: white;
+}
+.back_img .search_conteiner .conteiner .search input:focus {
+  outline: none;
+}
+
+.back_img .search_conteiner .conteiner .search button {
+  width: 20%;
+  padding: 15px;
+  border: 0;
+  border-radius: 30px;
+  background-color: #272727;
+  color: white;
+  font-size: 1.1em;
+}
