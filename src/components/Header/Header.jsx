@@ -1,4 +1,4 @@
-import styles from "./Header.Module.css";
+import styles from "./Header.module.css";
 
 export default function Header({ setCurrentPage }) {
   return (
